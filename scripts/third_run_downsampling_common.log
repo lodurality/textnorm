@@ -1,0 +1,1132 @@
+File range: [0, 1]
+Data shape for item 0 is (2973646, 3)
+Data shape for item 1 is (2981069, 3)
+Overall data shape is (5954715, 3)
+File range: [5, 6, 7, 8, 9]
+Data shape for item 5 is (2975471, 3)
+Data shape for item 6 is (2980056, 3)
+Data shape for item 7 is (2975255, 3)
+Data shape for item 8 is (2974627, 3)
+Data shape for item 9 is (2967303, 3)
+Overall data shape is (14872712, 3)
+Len of pairs: 13854189
+Len of pairs after filtering: 13852302
+Len of pairs: 5547039
+Len of pairs after filtering: 5546221
+Filtering common words in train...
+Done. Updated length is 13852302
+[('<PLAIN> <norm> Д р у г а я </norm> </PLAIN> в е р с и я б е р е т н а ч а л о', '<self>', 'PLAIN', True), ('<PLAIN> <norm> в е р с и я </norm> </PLAIN> б е р е т н а ч а л о о т', '<self>', 'PLAIN', True), ('<PLAIN> <norm> б е р е т </norm> </PLAIN> н а ч а л о о т с л о в а', '<self>', 'PLAIN', True), ('Д р у г а я в е р с и я б е р е т <PLAIN> <norm> н а ч а л о </norm> </PLAIN> о т с л о в а "', '<self>', 'PLAIN', True), ('в е р с и я б е р е т н а ч а л о <PLAIN> <norm> о т </norm> </PLAIN> с л о в а " н е п е я', '<self>', 'PLAIN', True)]
+[('<PLAIN> <norm> П о </norm> </PLAIN> с о с т о я н и ю н а 1 8 6 2 г о д', '<self>', 'PLAIN', True), ('<PLAIN> <norm> с о с т о я н и ю </norm> </PLAIN> н а 1 8 6 2 г о д .', '<self>', 'PLAIN', True), ('<PLAIN> <norm> н а </norm> </PLAIN> 1 8 6 2 г о д . ', '<self>', 'PLAIN', True), ('П о с о с т о я н и ю н а <DATE> <norm> 1 8 6 2 г о д </norm> </DATE> . ', 'тысяча восемьсот шестьдесят второй год', 'DATE', True), ('с о с т о я н и ю н а 1 8 6 2 г о д <PUNCT> <norm> . </norm> </PUNCT> ', 'sil', 'PUNCT', True)]
+{'PLAIN': 0.59454902543614596, 'PUNCT': 0.20497253017146916, '<eos>': 0.068462722397293577, 'TRANS': 0.048002297339167367, 'CARDINAL': 0.024654244577616224, 'LETTERS': 0.018039486356609846, 'DATE': 0.016565192456733865, 'VERBATIM': 0.014035432426237024, 'ORDINAL': 0.0040883568735027619, 'MEASURE': 0.003769449923296077, 'TELEPHONE': 0.00092397369143611412, 'DECIMAL': 0.00063966117605964345, 'ELECTRONIC': 0.00052025999565050553, 'MONEY': 0.00022301655075011986, 'FRACTION': 0.00021075735782484972, 'DIGIT': 0.00017801019864090894, 'TIME': 0.00016558307156597755}
+Using CUDA
+LR 0.01
+('1 9 6 6 , <PLAIN> <norm> Б р а у н ш в е й г </norm> </PLAIN> ) — н е м е ц к а я', '<self>', 'PLAIN', True)
+('— 3 5 г / <MEASURE> <norm> 1 0 л </norm> </MEASURE> в о д ы . ', 'десять литров', 'MEASURE', True)
+20000
+2m 14s (- 445m 10s) (1000 0%) 3.5593
+4m 14s (- 420m 39s) (2000 1%) 3.3023
+6m 13s (- 409m 4s) (3000 1%) 3.0441
+8m 17s (- 405m 58s) (4000 2%) 3.0900
+10m 17s (- 401m 19s) (5000 2%) 2.8710
+12m 19s (- 398m 44s) (6000 3%) 2.9890
+14m 18s (- 394m 38s) (7000 3%) 2.7709
+16m 21s (- 392m 30s) (8000 4%) 2.9128
+18m 23s (- 390m 9s) (9000 4%) 2.7790
+20m 22s (- 387m 15s) (10000 5%) 2.7462
+22m 23s (- 384m 46s) (11000 5%) 2.6740
+24m 24s (- 382m 22s) (12000 6%) 2.6867
+26m 25s (- 380m 6s) (13000 6%) 2.6658
+28m 24s (- 377m 28s) (14000 7%) 2.5858
+30m 27s (- 375m 39s) (15000 7%) 2.5174
+32m 26s (- 373m 5s) (16000 8%) 2.5507
+34m 26s (- 370m 41s) (17000 8%) 2.4469
+36m 23s (- 368m 0s) (18000 9%) 2.5394
+38m 26s (- 366m 9s) (19000 9%) 2.4729
+40m 27s (- 364m 6s) (20000 10%) 2.2609
+		 eval accuracy: 0.182
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.017
+			 VERBATIM eval error: 0.188
+			 ORDINAL eval error: 1.000
+			 MEASURE eval error: 1.000
+			 DATE eval error: 1.000
+			 ELECTRONIC eval error: 1.000
+			 CARDINAL eval error: 0.998
+			 LETTERS eval error: 0.953
+			 DECIMAL eval error: 0.998
+			 FRACTION eval error: 0.998
+			 TELEPHONE eval error: 1.000
+			 TIME eval error: 0.998
+			 MONEY eval error: 1.000
+			 DIGIT eval error: 0.932
+			 TRANS eval error: 1.000
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 4.0, 'MEASURE': 4.0, 'DATE': 4.0, 'ELECTRONIC': 4.0, 'CARDINAL': 4.0, 'LETTERS': 4.0, 'DECIMAL': 4.0, 'FRACTION': 4.0, 'TELEPHONE': 4.0, 'TIME': 4.0, 'MONEY': 4.0, 'DIGIT': 4.0, 'TRANS': 4.0, '<eos>': 0.0}
+('о к о н ч и в С в о б о д н ы й у н и в е р с и т е т <PLAIN> <norm> Б р ю с с е л я </norm> </PLAIN> с о с т е п е н ь ю д о к т о р а', '<self>', 'PLAIN', True)
+('I S B N <TELEPHONE> <norm> 1 - 5 7 0 2 7 - 0 3 0 - 9 </norm> </TELEPHONE> . H o c q u e n g h e m ,', 'один sil пятьсот семьдесят двадцать семь sil ноль тридцать sil девять', 'TELEPHONE', True)
+20000
+48m 44s (- 415m 29s) (21000 10%) 2.3016
+50m 48s (- 411m 8s) (22000 11%) 2.2236
+52m 50s (- 406m 39s) (23000 11%) 2.2061
+54m 51s (- 402m 16s) (24000 12%) 2.1552
+56m 55s (- 398m 28s) (25000 12%) 2.0365
+58m 57s (- 394m 31s) (26000 13%) 1.9864
+61m 0s (- 390m 55s) (27000 13%) 2.0423
+63m 2s (- 387m 12s) (28000 14%) 1.9702
+65m 4s (- 383m 40s) (29000 14%) 1.8810
+67m 6s (- 380m 15s) (30000 15%) 1.8284
+69m 10s (- 377m 7s) (31000 15%) 1.8565
+71m 13s (- 373m 56s) (32000 16%) 1.7854
+73m 19s (- 371m 3s) (33000 16%) 1.7521
+75m 25s (- 368m 16s) (34000 17%) 1.7182
+77m 27s (- 365m 8s) (35000 17%) 1.6639
+79m 31s (- 362m 16s) (36000 18%) 1.7360
+81m 34s (- 359m 24s) (37000 18%) 1.7044
+83m 41s (- 356m 47s) (38000 19%) 1.5653
+85m 46s (- 354m 3s) (39000 19%) 1.6258
+87m 47s (- 351m 8s) (40000 20%) 1.5577
+		 eval accuracy: 0.299
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.088
+			 ORDINAL eval error: 0.935
+			 MEASURE eval error: 0.960
+			 DATE eval error: 0.960
+			 ELECTRONIC eval error: 0.975
+			 CARDINAL eval error: 0.772
+			 LETTERS eval error: 0.790
+			 DECIMAL eval error: 0.920
+			 FRACTION eval error: 0.953
+			 TELEPHONE eval error: 1.000
+			 TIME eval error: 0.537
+			 MONEY eval error: 0.955
+			 DIGIT eval error: 0.390
+			 TRANS eval error: 0.985
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 5.0, 'MEASURE': 5.0, 'DATE': 5.0, 'ELECTRONIC': 5.0, 'CARDINAL': 5.0, 'LETTERS': 5.0, 'DECIMAL': 5.0, 'FRACTION': 5.0, 'TELEPHONE': 5.0, 'TIME': 5.0, 'MONEY': 5.0, 'DIGIT': 4.0, 'TRANS': 5.0, '<eos>': 0.0}
+('о к а з а л и п р о п о в е д и с в я т о г о <PLAIN> <norm> В и к е н т и я </norm> </PLAIN> Ф е р р е р а , с в я щ е н н и к а', '<self>', 'PLAIN', True)
+('д в у м я о с о б я м и м а к а к <VERBATIM> <norm> - </norm> </VERBATIM> р е з у с о в и д в у м я', 'sil', 'VERBATIM', True)
+20000
+96m 15s (- 373m 18s) (41000 20%) 1.5077
+98m 19s (- 369m 54s) (42000 21%) 1.4796
+100m 24s (- 366m 38s) (43000 21%) 1.5005
+102m 28s (- 363m 17s) (44000 22%) 1.7456
+104m 30s (- 359m 59s) (45000 22%) 1.5616
+106m 32s (- 356m 41s) (46000 23%) 1.4938
+108m 38s (- 353m 40s) (47000 23%) 1.5066
+110m 43s (- 350m 38s) (48000 24%) 1.4678
+112m 49s (- 347m 39s) (49000 24%) 1.3426
+114m 53s (- 344m 40s) (50000 25%) 1.3761
+116m 56s (- 341m 39s) (51000 25%) 1.2640
+118m 58s (- 338m 36s) (52000 26%) 1.2570
+121m 0s (- 335m 37s) (53000 26%) 1.2459
+123m 4s (- 332m 46s) (54000 27%) 1.2796
+125m 6s (- 329m 48s) (55000 27%) 1.1464
+127m 11s (- 327m 3s) (56000 28%) 1.1859
+129m 15s (- 324m 17s) (57000 28%) 1.1818
+131m 19s (- 321m 31s) (58000 28%) 1.1335
+133m 23s (- 318m 46s) (59000 29%) 1.1257
+135m 25s (- 315m 59s) (60000 30%) 1.1410
+		 eval accuracy: 0.406
+			 PLAIN eval error: 0.005
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.070
+			 ORDINAL eval error: 0.708
+			 MEASURE eval error: 0.777
+			 DATE eval error: 0.845
+			 ELECTRONIC eval error: 0.963
+			 CARDINAL eval error: 0.455
+			 LETTERS eval error: 0.698
+			 DECIMAL eval error: 0.812
+			 FRACTION eval error: 0.722
+			 TELEPHONE eval error: 0.993
+			 TIME eval error: 0.395
+			 MONEY eval error: 0.945
+			 DIGIT eval error: 0.177
+			 TRANS eval error: 0.932
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 6.0, 'DATE': 6.0, 'ELECTRONIC': 6.0, 'CARDINAL': 5.0, 'LETTERS': 6.0, 'DECIMAL': 6.0, 'FRACTION': 6.0, 'TELEPHONE': 6.0, 'TIME': 5.0, 'MONEY': 6.0, 'DIGIT': 4.0, 'TRANS': 6.0, '<eos>': 0.0}
+('В о л о г о д с к о й о б л а с т и в <PLAIN> <norm> с е м ь е </norm> </PLAIN> к р е с т ь я н и н а . ', '<self>', 'PLAIN', True)
+('в ч е м п и о н а т е N e w <TRANS> <norm> Z e a l a n d s </norm> </TRANS> F o r m u l a F i r s t ,', 'з_trans е_trans о_trans л_trans е_trans н_trans д_trans с_trans', 'TRANS', True)
+20000
+143m 57s (- 328m 2s) (61000 30%) 1.2142
+146m 1s (- 325m 1s) (62000 31%) 1.1160
+148m 6s (- 322m 4s) (63000 31%) 1.0897
+150m 10s (- 319m 6s) (64000 32%) 1.0951
+152m 14s (- 316m 11s) (65000 32%) 1.0871
+154m 21s (- 313m 22s) (66000 33%) 1.0812
+156m 25s (- 310m 30s) (67000 33%) 1.0484
+158m 28s (- 307m 37s) (68000 34%) 0.9540
+160m 31s (- 304m 46s) (69000 34%) 1.1100
+162m 34s (- 301m 55s) (70000 35%) 1.0030
+164m 40s (- 299m 11s) (71000 35%) 1.0143
+166m 43s (- 296m 23s) (72000 36%) 0.9890
+168m 47s (- 293m 38s) (73000 36%) 1.0459
+170m 50s (- 290m 53s) (74000 37%) 1.0111
+172m 54s (- 288m 10s) (75000 37%) 1.0157
+174m 58s (- 285m 29s) (76000 38%) 0.9434
+176m 59s (- 282m 43s) (77000 38%) 0.9566
+179m 3s (- 280m 4s) (78000 39%) 0.9901
+181m 8s (- 277m 26s) (79000 39%) 0.8772
+183m 11s (- 274m 47s) (80000 40%) 0.9173
+		 eval accuracy: 0.485
+			 PLAIN eval error: 0.002
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.065
+			 ORDINAL eval error: 0.568
+			 MEASURE eval error: 0.655
+			 DATE eval error: 0.653
+			 ELECTRONIC eval error: 0.902
+			 CARDINAL eval error: 0.353
+			 LETTERS eval error: 0.508
+			 DECIMAL eval error: 0.770
+			 FRACTION eval error: 0.610
+			 TELEPHONE eval error: 0.985
+			 TIME eval error: 0.228
+			 MONEY eval error: 0.887
+			 DIGIT eval error: 0.142
+			 TRANS eval error: 0.907
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 7.0, 'MEASURE': 7.0, 'DATE': 7.0, 'ELECTRONIC': 7.0, 'CARDINAL': 5.0, 'LETTERS': 7.0, 'DECIMAL': 7.0, 'FRACTION': 7.0, 'TELEPHONE': 7.0, 'TIME': 5.0, 'MONEY': 7.0, 'DIGIT': 4.0, 'TRANS': 7.0, '<eos>': 0.0}
+('э т а п ч е м п и о н а т а м и р а <PLAIN> <norm> п о </norm> </PLAIN> а в т о г о н к а м в к л а с с е', '<self>', 'PLAIN', True)
+('P h a e o t h y r i u m <ELECTRONIC> <norm> n . g e n </norm> </ELECTRONIC> . , e i n e', 'n точка д_trans ж_trans е_trans н_trans', 'ELECTRONIC', True)
+20000
+191m 39s (- 281m 34s) (81000 40%) 0.9565
+193m 42s (- 278m 45s) (82000 41%) 0.9407
+195m 44s (- 275m 55s) (83000 41%) 0.8333
+197m 47s (- 273m 8s) (84000 42%) 0.8724
+199m 52s (- 270m 25s) (85000 42%) 0.8734
+201m 53s (- 267m 36s) (86000 43%) 0.8555
+203m 58s (- 264m 55s) (87000 43%) 0.8883
+206m 2s (- 262m 13s) (88000 44%) 0.9042
+208m 1s (- 259m 27s) (89000 44%) 0.8834
+210m 6s (- 256m 47s) (90000 45%) 0.9179
+212m 9s (- 254m 7s) (91000 45%) 0.8967
+214m 13s (- 251m 28s) (92000 46%) 0.8564
+216m 15s (- 248m 48s) (93000 46%) 0.8473
+218m 19s (- 246m 11s) (94000 47%) 0.9050
+220m 27s (- 243m 39s) (95000 47%) 0.8804
+222m 28s (- 241m 0s) (96000 48%) 0.8657
+224m 30s (- 238m 23s) (97000 48%) 0.8195
+226m 31s (- 235m 46s) (98000 49%) 0.7878
+228m 33s (- 233m 10s) (99000 49%) 0.8261
+230m 37s (- 230m 37s) (100000 50%) 0.8234
+		 eval accuracy: 0.508
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.060
+			 ORDINAL eval error: 0.510
+			 MEASURE eval error: 0.623
+			 DATE eval error: 0.555
+			 ELECTRONIC eval error: 0.887
+			 CARDINAL eval error: 0.390
+			 LETTERS eval error: 0.460
+			 DECIMAL eval error: 0.785
+			 FRACTION eval error: 0.590
+			 TELEPHONE eval error: 0.983
+			 TIME eval error: 0.195
+			 MONEY eval error: 0.887
+			 DIGIT eval error: 0.115
+			 TRANS eval error: 0.835
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 8.0, 'MEASURE': 8.0, 'DATE': 8.0, 'ELECTRONIC': 8.0, 'CARDINAL': 6.0, 'LETTERS': 7.0, 'DECIMAL': 8.0, 'FRACTION': 8.0, 'TELEPHONE': 8.0, 'TIME': 5.0, 'MONEY': 8.0, 'DIGIT': 4.0, 'TRANS': 8.0, '<eos>': 0.0}
+('Э с т е в е в ы п у с т и л П ь е р <PLAIN> <norm> Ф р а н к а с т е л ь </norm> </PLAIN> . ', '<self>', 'PLAIN', True)
+('. ) , <ELECTRONIC> <norm> s o c c e r w a y . c o m </norm> </ELECTRONIC> ( 6 ф е в р а л я 2 0 1 3 )', 'с_trans о_trans с_trans с_trans е_trans р_trans у_trans э_trans й_trans точка к_trans о_trans м_trans', 'ELECTRONIC', True)
+20000
+239m 13s (- 234m 29s) (101000 50%) 0.7577
+241m 19s (- 231m 51s) (102000 51%) 0.7483
+243m 23s (- 229m 12s) (103000 51%) 0.7783
+245m 25s (- 226m 32s) (104000 52%) 0.7432
+247m 31s (- 223m 56s) (105000 52%) 0.8137
+249m 33s (- 221m 18s) (106000 53%) 0.8442
+251m 38s (- 218m 42s) (107000 53%) 0.8154
+253m 41s (- 216m 6s) (108000 54%) 0.8251
+255m 45s (- 213m 31s) (109000 54%) 0.7711
+257m 49s (- 210m 56s) (110000 55%) 0.7617
+259m 53s (- 208m 22s) (111000 55%) 0.8055
+261m 55s (- 205m 48s) (112000 56%) 0.8102
+263m 58s (- 203m 14s) (113000 56%) 0.7532
+266m 0s (- 200m 40s) (114000 56%) 0.7256
+268m 5s (- 198m 9s) (115000 57%) 0.7483
+270m 9s (- 195m 38s) (116000 57%) 0.7898
+272m 13s (- 193m 7s) (117000 58%) 0.7223
+274m 16s (- 190m 35s) (118000 59%) 0.7136
+276m 21s (- 188m 6s) (119000 59%) 0.7513
+278m 24s (- 185m 36s) (120000 60%) 0.7438
+		 eval accuracy: 0.537
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.047
+			 ORDINAL eval error: 0.475
+			 MEASURE eval error: 0.573
+			 DATE eval error: 0.530
+			 ELECTRONIC eval error: 0.870
+			 CARDINAL eval error: 0.333
+			 LETTERS eval error: 0.460
+			 DECIMAL eval error: 0.640
+			 FRACTION eval error: 0.607
+			 TELEPHONE eval error: 0.985
+			 TIME eval error: 0.208
+			 MONEY eval error: 0.812
+			 DIGIT eval error: 0.083
+			 TRANS eval error: 0.792
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 8.0, 'MEASURE': 9.0, 'DATE': 9.0, 'ELECTRONIC': 9.0, 'CARDINAL': 6.0, 'LETTERS': 8.0, 'DECIMAL': 9.0, 'FRACTION': 9.0, 'TELEPHONE': 9.0, 'TIME': 6.0, 'MONEY': 9.0, 'DIGIT': 4.0, 'TRANS': 9.0, '<eos>': 0.0}
+('с о р а б и с т и к и п о л у ч а ю т н а у ч н ы е <PLAIN> <norm> с т е п е н и </norm> </PLAIN> б а к а л а в р а и с к у с с т в ,', '<self>', 'PLAIN', True)
+('<FRACTION> <norm> 5 ½ </norm> </FRACTION> l e s s o n s t h a t l e g i t i m a t e', 'пять целых и одна вторая', 'FRACTION', True)
+20000
+286m 58s (- 187m 21s) (121000 60%) 0.6743
+289m 0s (- 184m 46s) (122000 61%) 0.7165
+291m 3s (- 182m 12s) (123000 61%) 0.7208
+293m 4s (- 179m 37s) (124000 62%) 0.7502
+295m 7s (- 177m 4s) (125000 62%) 0.7895
+297m 10s (- 174m 31s) (126000 63%) 0.7318
+299m 14s (- 172m 0s) (127000 63%) 0.7419
+301m 17s (- 169m 28s) (128000 64%) 0.8025
+303m 20s (- 166m 57s) (129000 64%) 0.7376
+305m 23s (- 164m 26s) (130000 65%) 0.6564
+307m 28s (- 161m 57s) (131000 65%) 0.7417
+309m 34s (- 159m 28s) (132000 66%) 0.7445
+311m 35s (- 156m 58s) (133000 66%) 0.6785
+313m 42s (- 154m 30s) (134000 67%) 0.7281
+315m 43s (- 152m 0s) (135000 67%) 0.7229
+317m 46s (- 149m 32s) (136000 68%) 0.6622
+319m 50s (- 147m 4s) (137000 68%) 0.7391
+321m 50s (- 144m 35s) (138000 69%) 0.6530
+323m 53s (- 142m 8s) (139000 69%) 0.7690
+325m 58s (- 139m 42s) (140000 70%) 0.7334
+		 eval accuracy: 0.550
+			 PLAIN eval error: 0.002
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.040
+			 ORDINAL eval error: 0.405
+			 MEASURE eval error: 0.555
+			 DATE eval error: 0.532
+			 ELECTRONIC eval error: 0.855
+			 CARDINAL eval error: 0.355
+			 LETTERS eval error: 0.405
+			 DECIMAL eval error: 0.662
+			 FRACTION eval error: 0.643
+			 TELEPHONE eval error: 0.958
+			 TIME eval error: 0.150
+			 MONEY eval error: 0.807
+			 DIGIT eval error: 0.055
+			 TRANS eval error: 0.782
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 8.0, 'MEASURE': 10.0, 'DATE': 10.0, 'ELECTRONIC': 10.0, 'CARDINAL': 7.0, 'LETTERS': 8.0, 'DECIMAL': 10.0, 'FRACTION': 10.0, 'TELEPHONE': 10.0, 'TIME': 6.0, 'MONEY': 10.0, 'DIGIT': 4.0, 'TRANS': 10.0, '<eos>': 0.0}
+('ш и р о к о у г о л ь н у ю к а м е р у , <PLAIN> <norm> с </norm> </PLAIN> к о т о р о й п о л у ч и л с е р и ю', '<self>', 'PLAIN', True)
+('<TRANS> <norm> P a u l </norm> </TRANS> G o t t f r i e d , I n t r o d u c t i o n', 'п_trans о_trans л_trans', 'TRANS', True)
+20000
+334m 44s (- 140m 4s) (141000 70%) 0.7304
+336m 47s (- 137m 33s) (142000 71%) 0.6549
+338m 52s (- 135m 4s) (143000 71%) 0.7226
+340m 57s (- 132m 35s) (144000 72%) 0.6914
+343m 2s (- 130m 7s) (145000 72%) 0.6939
+345m 8s (- 127m 39s) (146000 73%) 0.6875
+347m 14s (- 125m 11s) (147000 73%) 0.6680
+349m 19s (- 122m 44s) (148000 74%) 0.6677
+351m 25s (- 120m 17s) (149000 74%) 0.6793
+353m 28s (- 117m 49s) (150000 75%) 0.7225
+355m 32s (- 115m 22s) (151000 75%) 0.6588
+357m 37s (- 112m 56s) (152000 76%) 0.7898
+359m 40s (- 110m 29s) (153000 76%) 0.6478
+361m 44s (- 108m 3s) (154000 77%) 0.7016
+363m 49s (- 105m 37s) (155000 77%) 0.6814
+365m 52s (- 103m 11s) (156000 78%) 0.7067
+367m 55s (- 100m 46s) (157000 78%) 0.6844
+370m 2s (- 98m 21s) (158000 79%) 0.7201
+372m 8s (- 95m 57s) (159000 79%) 0.6574
+374m 12s (- 93m 33s) (160000 80%) 0.7230
+		 eval accuracy: 0.569
+			 PLAIN eval error: 0.005
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.037
+			 ORDINAL eval error: 0.375
+			 MEASURE eval error: 0.557
+			 DATE eval error: 0.450
+			 ELECTRONIC eval error: 0.850
+			 CARDINAL eval error: 0.338
+			 LETTERS eval error: 0.350
+			 DECIMAL eval error: 0.615
+			 FRACTION eval error: 0.552
+			 TELEPHONE eval error: 0.978
+			 TIME eval error: 0.142
+			 MONEY eval error: 0.750
+			 DIGIT eval error: 0.103
+			 TRANS eval error: 0.795
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 8.0, 'MEASURE': 11.0, 'DATE': 10.0, 'ELECTRONIC': 11.0, 'CARDINAL': 8.0, 'LETTERS': 8.0, 'DECIMAL': 11.0, 'FRACTION': 11.0, 'TELEPHONE': 11.0, 'TIME': 6.0, 'MONEY': 11.0, 'DIGIT': 5.0, 'TRANS': 11.0, '<eos>': 0.0}
+('к о м п а н и и б ы л о т р и <PLAIN> <norm> п и в о в а р н и </norm> </PLAIN> . ', '<self>', 'PLAIN', True)
+('Н и д е р л а н д ы 3 : <CARDINAL> <norm> 0 </norm> </CARDINAL> . П о л у ф и н а л —', 'ноль', 'CARDINAL', True)
+20000
+382m 47s (- 92m 43s) (161000 80%) 0.6316
+384m 49s (- 90m 16s) (162000 81%) 0.7324
+386m 55s (- 87m 49s) (163000 81%) 0.7199
+389m 2s (- 85m 23s) (164000 82%) 0.6972
+391m 7s (- 82m 58s) (165000 82%) 0.7242
+393m 11s (- 80m 31s) (166000 83%) 0.6752
+395m 14s (- 78m 6s) (167000 83%) 0.6270
+397m 16s (- 75m 40s) (168000 84%) 0.6381
+399m 19s (- 73m 14s) (169000 84%) 0.6642
+401m 23s (- 70m 50s) (170000 85%) 0.7227
+403m 28s (- 68m 25s) (171000 85%) 0.6596
+405m 32s (- 66m 1s) (172000 86%) 0.6866
+407m 35s (- 63m 36s) (173000 86%) 0.6347
+409m 42s (- 61m 13s) (174000 87%) 0.6343
+411m 43s (- 58m 49s) (175000 87%) 0.6080
+413m 47s (- 56m 25s) (176000 88%) 0.5923
+415m 51s (- 54m 2s) (177000 88%) 0.6701
+417m 55s (- 51m 39s) (178000 89%) 0.6491
+419m 58s (- 49m 16s) (179000 89%) 0.6617
+422m 2s (- 46m 53s) (180000 90%) 0.6350
+		 eval accuracy: 0.582
+			 PLAIN eval error: 0.002
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.037
+			 ORDINAL eval error: 0.390
+			 MEASURE eval error: 0.528
+			 DATE eval error: 0.363
+			 ELECTRONIC eval error: 0.835
+			 CARDINAL eval error: 0.325
+			 LETTERS eval error: 0.330
+			 DECIMAL eval error: 0.585
+			 FRACTION eval error: 0.555
+			 TELEPHONE eval error: 0.990
+			 TIME eval error: 0.162
+			 MONEY eval error: 0.722
+			 DIGIT eval error: 0.098
+			 TRANS eval error: 0.770
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 9.0, 'MEASURE': 12.0, 'DATE': 10.0, 'ELECTRONIC': 12.0, 'CARDINAL': 8.0, 'LETTERS': 8.0, 'DECIMAL': 12.0, 'FRACTION': 12.0, 'TELEPHONE': 12.0, 'TIME': 7.0, 'MONEY': 12.0, 'DIGIT': 6.0, 'TRANS': 12.0, '<eos>': 0.0}
+LR 0.001
+('п о д е л е н н а с о р о к <PLAIN> <norm> н е б о л ь ш и х </norm> </PLAIN> о т с е к о в д л я х р а н е н и я', '<self>', 'PLAIN', True)
+('9 5 2 с . — I S B N <TELEPHONE> <norm> 9 0 6 - 0 0 - 0 0 2 5 - 1 </norm> </TELEPHONE> . ( у к р', 'девятьсот шесть sil ноль ноль sil ноль ноль двадцать пять sil один', 'TELEPHONE', True)
+20000
+2m 18s (- 459m 10s) (1000 0%) 0.6009
+4m 23s (- 434m 35s) (2000 1%) 0.6560
+6m 26s (- 422m 28s) (3000 1%) 0.5963
+8m 29s (- 416m 5s) (4000 2%) 0.5524
+10m 32s (- 411m 0s) (5000 2%) 0.6110
+12m 37s (- 408m 18s) (6000 3%) 0.5533
+14m 42s (- 405m 22s) (7000 3%) 0.5489
+16m 46s (- 402m 29s) (8000 4%) 0.6259
+18m 49s (- 399m 36s) (9000 4%) 0.5399
+20m 50s (- 396m 3s) (10000 5%) 0.5317
+22m 56s (- 394m 2s) (11000 5%) 0.5313
+25m 0s (- 391m 53s) (12000 6%) 0.5164
+27m 6s (- 389m 57s) (13000 6%) 0.5380
+29m 11s (- 387m 50s) (14000 7%) 0.5771
+31m 16s (- 385m 46s) (15000 7%) 0.5748
+33m 22s (- 383m 49s) (16000 8%) 0.5244
+35m 26s (- 381m 27s) (17000 8%) 0.5107
+37m 32s (- 379m 36s) (18000 9%) 0.5009
+39m 36s (- 377m 18s) (19000 9%) 0.4881
+41m 40s (- 375m 7s) (20000 10%) 0.5124
+		 eval accuracy: 0.641
+			 PLAIN eval error: 0.002
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.025
+			 ORDINAL eval error: 0.328
+			 MEASURE eval error: 0.443
+			 DATE eval error: 0.318
+			 ELECTRONIC eval error: 0.765
+			 CARDINAL eval error: 0.262
+			 LETTERS eval error: 0.272
+			 DECIMAL eval error: 0.458
+			 FRACTION eval error: 0.432
+			 TELEPHONE eval error: 0.925
+			 TIME eval error: 0.085
+			 MONEY eval error: 0.698
+			 DIGIT eval error: 0.042
+			 TRANS eval error: 0.682
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 3.0, 'MEASURE': 3.0, 'DATE': 3.0, 'ELECTRONIC': 4.0, 'CARDINAL': 3.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 4.0, 'TIME': 3.0, 'MONEY': 4.0, 'DIGIT': 3.0, 'TRANS': 4.0, '<eos>': 0.0}
+('в с и с т е м е п р е д о с т а в л е н и я <PLAIN> <norm> п р о ф е с с и о н а л ь н ы х </norm> </PLAIN> о б р а з о в а т е л ь н ы х у с л у г я в л я е т с я', '<self>', 'PLAIN', True)
+('и л и б а м б у к а с о с т а в л я е т <MONEY> <norm> 2 7 $ </norm> </MONEY> . ', 'двадцать семь долларов сэ ш а', 'MONEY', True)
+20000
+50m 13s (- 428m 5s) (21000 10%) 0.4824
+52m 16s (- 422m 59s) (22000 11%) 0.5438
+54m 17s (- 417m 48s) (23000 11%) 0.5467
+56m 21s (- 413m 16s) (24000 12%) 0.4960
+58m 24s (- 408m 52s) (25000 12%) 0.5173
+60m 28s (- 404m 43s) (26000 13%) 0.5137
+62m 32s (- 400m 44s) (27000 13%) 0.4958
+64m 36s (- 396m 51s) (28000 14%) 0.4861
+66m 40s (- 393m 9s) (29000 14%) 0.4673
+68m 44s (- 389m 30s) (30000 15%) 0.5074
+70m 47s (- 385m 54s) (31000 15%) 0.4841
+72m 49s (- 382m 21s) (32000 16%) 0.4686
+74m 55s (- 379m 8s) (33000 16%) 0.5045
+76m 58s (- 375m 47s) (34000 17%) 0.4417
+79m 2s (- 372m 37s) (35000 17%) 0.5014
+81m 6s (- 369m 28s) (36000 18%) 0.5339
+83m 9s (- 366m 19s) (37000 18%) 0.4823
+85m 14s (- 363m 25s) (38000 19%) 0.4834
+87m 20s (- 360m 34s) (39000 19%) 0.4716
+89m 25s (- 357m 42s) (40000 20%) 0.4466
+		 eval accuracy: 0.661
+			 PLAIN eval error: 0.002
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.020
+			 ORDINAL eval error: 0.300
+			 MEASURE eval error: 0.435
+			 DATE eval error: 0.290
+			 ELECTRONIC eval error: 0.758
+			 CARDINAL eval error: 0.252
+			 LETTERS eval error: 0.240
+			 DECIMAL eval error: 0.430
+			 FRACTION eval error: 0.405
+			 TELEPHONE eval error: 0.900
+			 TIME eval error: 0.062
+			 MONEY eval error: 0.627
+			 DIGIT eval error: 0.022
+			 TRANS eval error: 0.677
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 3.0, 'MEASURE': 3.0, 'DATE': 3.0, 'ELECTRONIC': 5.0, 'CARDINAL': 3.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 5.0, 'TIME': 3.0, 'MONEY': 5.0, 'DIGIT': 3.0, 'TRANS': 5.0, '<eos>': 0.0}
+('<PLAIN> <norm> Н а р о д н а я </norm> </PLAIN> м о л в а с ч и т а л а ,', '<self>', 'PLAIN', True)
+(': 2 2 , <TIME> <norm> 2 1 : 2 5 </norm> </TIME> , 2 6 :', 'двадцать один час двадцать пять минут', 'TIME', True)
+20000
+98m 3s (- 380m 16s) (41000 20%) 0.5393
+100m 9s (- 376m 46s) (42000 21%) 0.4942
+102m 16s (- 373m 26s) (43000 21%) 0.4946
+104m 22s (- 370m 4s) (44000 22%) 0.4864
+106m 26s (- 366m 37s) (45000 22%) 0.4602
+108m 31s (- 363m 17s) (46000 23%) 0.4556
+110m 34s (- 359m 57s) (47000 23%) 0.4862
+112m 40s (- 356m 47s) (48000 24%) 0.5345
+114m 45s (- 353m 38s) (49000 24%) 0.4883
+116m 49s (- 350m 27s) (50000 25%) 0.4807
+118m 53s (- 347m 21s) (51000 25%) 0.4823
+120m 54s (- 344m 6s) (52000 26%) 0.4379
+122m 55s (- 340m 57s) (53000 26%) 0.4324
+124m 58s (- 337m 54s) (54000 27%) 0.4538
+127m 0s (- 334m 49s) (55000 27%) 0.4728
+129m 2s (- 331m 49s) (56000 28%) 0.4295
+131m 7s (- 328m 56s) (57000 28%) 0.4470
+133m 11s (- 326m 4s) (58000 28%) 0.4627
+135m 13s (- 323m 10s) (59000 29%) 0.4680
+137m 19s (- 320m 26s) (60000 30%) 0.4702
+		 eval accuracy: 0.669
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.015
+			 ORDINAL eval error: 0.300
+			 MEASURE eval error: 0.435
+			 DATE eval error: 0.272
+			 ELECTRONIC eval error: 0.745
+			 CARDINAL eval error: 0.240
+			 LETTERS eval error: 0.218
+			 DECIMAL eval error: 0.417
+			 FRACTION eval error: 0.387
+			 TELEPHONE eval error: 0.897
+			 TIME eval error: 0.047
+			 MONEY eval error: 0.623
+			 DIGIT eval error: 0.030
+			 TRANS eval error: 0.662
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 4.0, 'MEASURE': 4.0, 'DATE': 3.0, 'ELECTRONIC': 6.0, 'CARDINAL': 3.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 6.0, 'TIME': 3.0, 'MONEY': 6.0, 'DIGIT': 3.0, 'TRANS': 6.0, '<eos>': 0.0}
+(', Х о т о м л я , <PLAIN> <norm> В о л о ц к а я </norm> </PLAIN> Б а л а к л е й к а , М о к р ы й', '<self>', 'PLAIN', True)
+(', 4 2 1 с . , <DECIMAL> <norm> 2 8 , 6 7 </norm> </DECIMAL> у с л . ', 'двадцать восемь целых и шестьдесят семь сотых', 'DECIMAL', True)
+20000
+145m 56s (- 332m 32s) (61000 30%) 0.4517
+148m 1s (- 329m 29s) (62000 31%) 0.4826
+150m 4s (- 326m 21s) (63000 31%) 0.4271
+152m 10s (- 323m 21s) (64000 32%) 0.4641
+154m 15s (- 320m 23s) (65000 32%) 0.4403
+156m 17s (- 317m 19s) (66000 33%) 0.4110
+158m 20s (- 314m 19s) (67000 33%) 0.4078
+160m 24s (- 311m 22s) (68000 34%) 0.4549
+162m 28s (- 308m 28s) (69000 34%) 0.5024
+164m 34s (- 305m 39s) (70000 35%) 0.4234
+166m 40s (- 302m 50s) (71000 35%) 0.4384
+168m 49s (- 300m 7s) (72000 36%) 0.5020
+170m 52s (- 297m 16s) (73000 36%) 0.4480
+172m 55s (- 294m 27s) (74000 37%) 0.4239
+174m 59s (- 291m 39s) (75000 37%) 0.4536
+177m 3s (- 288m 52s) (76000 38%) 0.4290
+179m 6s (- 286m 6s) (77000 38%) 0.4402
+181m 9s (- 283m 21s) (78000 39%) 0.4305
+183m 12s (- 280m 36s) (79000 39%) 0.4651
+185m 17s (- 277m 55s) (80000 40%) 0.4619
+		 eval accuracy: 0.675
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.012
+			 ORDINAL eval error: 0.295
+			 MEASURE eval error: 0.430
+			 DATE eval error: 0.280
+			 ELECTRONIC eval error: 0.735
+			 CARDINAL eval error: 0.248
+			 LETTERS eval error: 0.203
+			 DECIMAL eval error: 0.392
+			 FRACTION eval error: 0.387
+			 TELEPHONE eval error: 0.890
+			 TIME eval error: 0.050
+			 MONEY eval error: 0.595
+			 DIGIT eval error: 0.020
+			 TRANS eval error: 0.655
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 4.0, 'MEASURE': 4.0, 'DATE': 4.0, 'ELECTRONIC': 7.0, 'CARDINAL': 4.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 4.0, 'TELEPHONE': 7.0, 'TIME': 4.0, 'MONEY': 7.0, 'DIGIT': 3.0, 'TRANS': 7.0, '<eos>': 0.0}
+('С 8 я н в а р я 1 9 1 5 г о д а <PLAIN> <norm> в н о в ь </norm> </PLAIN> п р е б ы в а л н а д о л ж н о с т и', '<self>', 'PLAIN', True)
+('С е з о н <FRACTION> <norm> 1 9 8 1 / 1 9 8 2 </norm> </FRACTION> г г . 2 я н в а р я 1 9 8 2', 'тысяча девятьсот восемьдесят одна тысяча девятьсот восемьдесят вторая', 'FRACTION', True)
+20000
+193m 51s (- 284m 47s) (81000 40%) 0.4440
+195m 54s (- 281m 54s) (82000 41%) 0.4397
+197m 58s (- 279m 4s) (83000 41%) 0.4433
+200m 2s (- 276m 14s) (84000 42%) 0.4124
+202m 3s (- 273m 22s) (85000 42%) 0.4205
+204m 9s (- 270m 37s) (86000 43%) 0.3996
+206m 11s (- 267m 49s) (87000 43%) 0.4644
+208m 16s (- 265m 4s) (88000 44%) 0.4266
+210m 19s (- 262m 19s) (89000 44%) 0.4746
+212m 21s (- 259m 33s) (90000 45%) 0.3947
+214m 29s (- 256m 54s) (91000 45%) 0.4831
+216m 32s (- 254m 12s) (92000 46%) 0.4457
+218m 36s (- 251m 30s) (93000 46%) 0.4233
+220m 42s (- 248m 52s) (94000 47%) 0.4631
+222m 44s (- 246m 11s) (95000 47%) 0.4649
+224m 50s (- 243m 34s) (96000 48%) 0.4542
+226m 54s (- 240m 56s) (97000 48%) 0.4131
+229m 0s (- 238m 21s) (98000 49%) 0.4664
+231m 5s (- 235m 46s) (99000 49%) 0.4042
+233m 11s (- 233m 11s) (100000 50%) 0.4130
+		 eval accuracy: 0.678
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.017
+			 ORDINAL eval error: 0.277
+			 MEASURE eval error: 0.415
+			 DATE eval error: 0.275
+			 ELECTRONIC eval error: 0.728
+			 CARDINAL eval error: 0.243
+			 LETTERS eval error: 0.205
+			 DECIMAL eval error: 0.400
+			 FRACTION eval error: 0.395
+			 TELEPHONE eval error: 0.890
+			 TIME eval error: 0.050
+			 MONEY eval error: 0.603
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.640
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 4.0, 'MEASURE': 4.0, 'DATE': 5.0, 'ELECTRONIC': 8.0, 'CARDINAL': 5.0, 'LETTERS': 4.0, 'DECIMAL': 4.0, 'FRACTION': 5.0, 'TELEPHONE': 8.0, 'TIME': 5.0, 'MONEY': 8.0, 'DIGIT': 3.0, 'TRANS': 8.0, '<eos>': 0.0}
+('П о <PLAIN> <norm> В о е н н о </norm> </PLAIN> - О с е т и н с к о й д о р о г е', '<self>', 'PLAIN', True)
+('С . о т 5 4 <TRANS> <norm> - </norm> </TRANS> 5 5 . I n t e r n a t i o n a l i s a t i o n', 'до', 'TRANS', True)
+20000
+241m 49s (- 237m 2s) (101000 50%) 0.4595
+243m 56s (- 234m 22s) (102000 51%) 0.4509
+245m 59s (- 231m 40s) (103000 51%) 0.4732
+248m 5s (- 229m 0s) (104000 52%) 0.4803
+250m 9s (- 226m 19s) (105000 52%) 0.4551
+252m 15s (- 223m 41s) (106000 53%) 0.4604
+254m 19s (- 221m 2s) (107000 53%) 0.3988
+256m 25s (- 218m 25s) (108000 54%) 0.4546
+258m 29s (- 215m 48s) (109000 54%) 0.4453
+260m 33s (- 213m 10s) (110000 55%) 0.4532
+262m 38s (- 210m 35s) (111000 55%) 0.4296
+264m 42s (- 207m 58s) (112000 56%) 0.4451
+266m 48s (- 205m 25s) (113000 56%) 0.4689
+268m 53s (- 202m 50s) (114000 56%) 0.4642
+270m 56s (- 200m 15s) (115000 57%) 0.3943
+272m 59s (- 197m 41s) (116000 57%) 0.4567
+275m 4s (- 195m 8s) (117000 58%) 0.4278
+277m 9s (- 192m 35s) (118000 59%) 0.4306
+279m 16s (- 190m 5s) (119000 59%) 0.4076
+281m 19s (- 187m 32s) (120000 60%) 0.3745
+		 eval accuracy: 0.680
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.017
+			 ORDINAL eval error: 0.292
+			 MEASURE eval error: 0.410
+			 DATE eval error: 0.257
+			 ELECTRONIC eval error: 0.725
+			 CARDINAL eval error: 0.245
+			 LETTERS eval error: 0.185
+			 DECIMAL eval error: 0.400
+			 FRACTION eval error: 0.397
+			 TELEPHONE eval error: 0.890
+			 TIME eval error: 0.055
+			 MONEY eval error: 0.585
+			 DIGIT eval error: 0.012
+			 TRANS eval error: 0.645
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 5.0, 'MEASURE': 4.0, 'DATE': 5.0, 'ELECTRONIC': 9.0, 'CARDINAL': 6.0, 'LETTERS': 4.0, 'DECIMAL': 5.0, 'FRACTION': 6.0, 'TELEPHONE': 9.0, 'TIME': 6.0, 'MONEY': 9.0, 'DIGIT': 3.0, 'TRANS': 9.0, '<eos>': 0.0}
+('в и д у т а к ж е у г р о ж а е т <PLAIN> <norm> о х о т а </norm> </PLAIN> . ', '<self>', 'PLAIN', True)
+('2 0 1 3 . — <MEASURE> <norm> 5 2 8 с . </norm> </MEASURE> ( Т а б л .', 'пятьсот двадцать восемь секунд', 'MEASURE', True)
+20000
+289m 55s (- 189m 17s) (121000 60%) 0.4204
+291m 57s (- 186m 39s) (122000 61%) 0.4180
+294m 2s (- 184m 4s) (123000 61%) 0.4554
+296m 6s (- 181m 29s) (124000 62%) 0.4067
+298m 8s (- 178m 52s) (125000 62%) 0.4150
+300m 10s (- 176m 17s) (126000 63%) 0.3887
+302m 15s (- 173m 44s) (127000 63%) 0.3992
+304m 19s (- 171m 10s) (128000 64%) 0.4251
+306m 27s (- 168m 40s) (129000 64%) 0.4510
+308m 32s (- 166m 8s) (130000 65%) 0.4241
+310m 34s (- 163m 35s) (131000 65%) 0.4341
+312m 37s (- 161m 3s) (132000 66%) 0.4446
+314m 41s (- 158m 31s) (133000 66%) 0.4016
+316m 45s (- 156m 1s) (134000 67%) 0.4547
+318m 49s (- 153m 30s) (135000 67%) 0.4014
+320m 52s (- 150m 59s) (136000 68%) 0.4187
+322m 57s (- 148m 30s) (137000 68%) 0.4619
+325m 1s (- 146m 1s) (138000 69%) 0.3936
+327m 8s (- 143m 34s) (139000 69%) 0.4321
+329m 13s (- 141m 5s) (140000 70%) 0.4052
+		 eval accuracy: 0.684
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.012
+			 ORDINAL eval error: 0.285
+			 MEASURE eval error: 0.397
+			 DATE eval error: 0.255
+			 ELECTRONIC eval error: 0.730
+			 CARDINAL eval error: 0.243
+			 LETTERS eval error: 0.182
+			 DECIMAL eval error: 0.395
+			 FRACTION eval error: 0.385
+			 TELEPHONE eval error: 0.895
+			 TIME eval error: 0.057
+			 MONEY eval error: 0.555
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.643
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 4.0, 'DATE': 5.0, 'ELECTRONIC': 10.0, 'CARDINAL': 7.0, 'LETTERS': 4.0, 'DECIMAL': 6.0, 'FRACTION': 6.0, 'TELEPHONE': 10.0, 'TIME': 7.0, 'MONEY': 10.0, 'DIGIT': 3.0, 'TRANS': 10.0, '<eos>': 0.0}
+('Э в е р т о н у » с <PLAIN> <norm> в о з м о ж н о с т ь ю </norm> </PLAIN> в ы к у п а к о н т р а к т а и г р о к а', '<self>', 'PLAIN', True)
+('O r i c o n . c o . j p ( <DATE> <norm> 2 6 и ю н я 2 0 0 8 </norm> </DATE> ) . ', 'двадцать шестого июня две тысячи восьмого года', 'DATE', True)
+20000
+337m 51s (- 141m 22s) (141000 70%) 0.4002
+339m 58s (- 138m 51s) (142000 71%) 0.4260
+342m 5s (- 136m 21s) (143000 71%) 0.4199
+344m 8s (- 133m 50s) (144000 72%) 0.4090
+346m 10s (- 131m 18s) (145000 72%) 0.4334
+348m 17s (- 128m 49s) (146000 73%) 0.4069
+350m 20s (- 126m 18s) (147000 73%) 0.4579
+352m 25s (- 123m 49s) (148000 74%) 0.4415
+354m 31s (- 121m 20s) (149000 74%) 0.3987
+356m 34s (- 118m 51s) (150000 75%) 0.3825
+358m 41s (- 116m 23s) (151000 75%) 0.4064
+360m 45s (- 113m 55s) (152000 76%) 0.4048
+362m 48s (- 111m 26s) (153000 76%) 0.4380
+364m 55s (- 109m 0s) (154000 77%) 0.3774
+367m 2s (- 106m 33s) (155000 77%) 0.4311
+369m 3s (- 104m 5s) (156000 78%) 0.3673
+371m 7s (- 101m 38s) (157000 78%) 0.4204
+373m 12s (- 99m 12s) (158000 79%) 0.4126
+375m 15s (- 96m 45s) (159000 79%) 0.4779
+377m 21s (- 94m 20s) (160000 80%) 0.4298
+		 eval accuracy: 0.689
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.012
+			 ORDINAL eval error: 0.275
+			 MEASURE eval error: 0.397
+			 DATE eval error: 0.252
+			 ELECTRONIC eval error: 0.720
+			 CARDINAL eval error: 0.218
+			 LETTERS eval error: 0.160
+			 DECIMAL eval error: 0.417
+			 FRACTION eval error: 0.373
+			 TELEPHONE eval error: 0.880
+			 TIME eval error: 0.047
+			 MONEY eval error: 0.562
+			 DIGIT eval error: 0.017
+			 TRANS eval error: 0.640
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 5.0, 'DATE': 5.0, 'ELECTRONIC': 11.0, 'CARDINAL': 7.0, 'LETTERS': 4.0, 'DECIMAL': 7.0, 'FRACTION': 6.0, 'TELEPHONE': 11.0, 'TIME': 7.0, 'MONEY': 11.0, 'DIGIT': 3.0, 'TRANS': 11.0, '<eos>': 0.0}
+(', ж и г а ч к а , <PLAIN> <norm> ж г у ч к а </norm> </PLAIN> , с т р е к а л к а .', '<self>', 'PLAIN', True)
+('T w e e d i e , N e i l <PUNCT> <norm> . </norm> </PUNCT> ', 'sil', 'PUNCT', True)
+20000
+385m 55s (- 93m 29s) (161000 80%) 0.4023
+388m 0s (- 91m 0s) (162000 81%) 0.4195
+390m 4s (- 88m 32s) (163000 81%) 0.4023
+392m 8s (- 86m 4s) (164000 82%) 0.3880
+394m 14s (- 83m 37s) (165000 82%) 0.3908
+396m 19s (- 81m 10s) (166000 83%) 0.4124
+398m 22s (- 78m 43s) (167000 83%) 0.4101
+400m 26s (- 76m 16s) (168000 84%) 0.3969
+402m 33s (- 73m 50s) (169000 84%) 0.4235
+404m 35s (- 71m 23s) (170000 85%) 0.4358
+406m 39s (- 68m 57s) (171000 85%) 0.3927
+408m 45s (- 66m 32s) (172000 86%) 0.3874
+410m 48s (- 64m 6s) (173000 86%) 0.3796
+412m 53s (- 61m 41s) (174000 87%) 0.4223
+414m 58s (- 59m 16s) (175000 87%) 0.3800
+417m 4s (- 56m 52s) (176000 88%) 0.4073
+419m 11s (- 54m 28s) (177000 88%) 0.4286
+421m 15s (- 52m 3s) (178000 89%) 0.4136
+423m 20s (- 49m 39s) (179000 89%) 0.4123
+425m 27s (- 47m 16s) (180000 90%) 0.4064
+		 eval accuracy: 0.692
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.272
+			 MEASURE eval error: 0.375
+			 DATE eval error: 0.243
+			 ELECTRONIC eval error: 0.703
+			 CARDINAL eval error: 0.228
+			 LETTERS eval error: 0.170
+			 DECIMAL eval error: 0.392
+			 FRACTION eval error: 0.377
+			 TELEPHONE eval error: 0.883
+			 TIME eval error: 0.050
+			 MONEY eval error: 0.585
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.625
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 5.0, 'DATE': 5.0, 'ELECTRONIC': 12.0, 'CARDINAL': 8.0, 'LETTERS': 5.0, 'DECIMAL': 8.0, 'FRACTION': 7.0, 'TELEPHONE': 12.0, 'TIME': 8.0, 'MONEY': 12.0, 'DIGIT': 3.0, 'TRANS': 12.0, '<eos>': 0.0}
+LR 0.0001
+('1 9 2 6 г о д у п о с т а н о в л е н и е м С о в н а р к о м а <PLAIN> <norm> б ы л а </norm> </PLAIN> н а з н а ч е н а п е р с о н а л ь н а я п е н с и я', '<self>', 'PLAIN', True)
+('- в с п о м о г а т е л ь н ы е в е щ е с т в а <PUNCT> <norm> , </norm> </PUNCT> в к а ч е с т в е д о б а в к и', 'sil', 'PUNCT', True)
+20000
+2m 18s (- 460m 55s) (1000 0%) 0.4168
+4m 21s (- 431m 29s) (2000 1%) 0.4029
+6m 25s (- 422m 6s) (3000 1%) 0.4322
+8m 29s (- 415m 43s) (4000 2%) 0.3801
+10m 32s (- 411m 6s) (5000 2%) 0.3757
+12m 35s (- 407m 7s) (6000 3%) 0.3527
+14m 39s (- 404m 11s) (7000 3%) 0.3574
+16m 44s (- 401m 46s) (8000 4%) 0.4050
+18m 49s (- 399m 33s) (9000 4%) 0.4370
+20m 53s (- 397m 5s) (10000 5%) 0.4033
+22m 57s (- 394m 31s) (11000 5%) 0.3713
+25m 3s (- 392m 34s) (12000 6%) 0.4154
+27m 9s (- 390m 37s) (13000 6%) 0.4647
+29m 13s (- 388m 12s) (14000 7%) 0.3792
+31m 18s (- 386m 8s) (15000 7%) 0.3782
+33m 22s (- 383m 44s) (16000 8%) 0.3575
+35m 26s (- 381m 31s) (17000 8%) 0.4281
+37m 30s (- 379m 16s) (18000 9%) 0.3918
+39m 35s (- 377m 7s) (19000 9%) 0.3890
+41m 38s (- 374m 45s) (20000 10%) 0.3650
+		 eval accuracy: 0.694
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.257
+			 MEASURE eval error: 0.375
+			 DATE eval error: 0.257
+			 ELECTRONIC eval error: 0.703
+			 CARDINAL eval error: 0.218
+			 LETTERS eval error: 0.165
+			 DECIMAL eval error: 0.400
+			 FRACTION eval error: 0.390
+			 TELEPHONE eval error: 0.877
+			 TIME eval error: 0.047
+			 MONEY eval error: 0.555
+			 DIGIT eval error: 0.017
+			 TRANS eval error: 0.627
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 3.0, 'MEASURE': 3.0, 'DATE': 3.0, 'ELECTRONIC': 4.0, 'CARDINAL': 3.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 4.0, 'TIME': 3.0, 'MONEY': 4.0, 'DIGIT': 3.0, 'TRANS': 4.0, '<eos>': 0.0}
+('в х о д я т к в а р т а л ы В е р х н и й <PLAIN> <norm> и </norm> </PLAIN> Н и ж н и й В о д е н ,', '<self>', 'PLAIN', True)
+('г у б е р н с к о г о с т а т и с т и ч е с к о г о к о м и т е т а <LETTERS> <norm> С . Р . </norm> </LETTERS> М и н ц л о в а . ', 'с р', 'LETTERS', True)
+20000
+50m 13s (- 428m 9s) (21000 10%) 0.4014
+52m 18s (- 423m 14s) (22000 11%) 0.3862
+54m 23s (- 418m 34s) (23000 11%) 0.3998
+56m 25s (- 413m 49s) (24000 12%) 0.3791
+58m 28s (- 409m 18s) (25000 12%) 0.4065
+60m 32s (- 405m 6s) (26000 13%) 0.3974
+62m 35s (- 401m 4s) (27000 13%) 0.3936
+64m 42s (- 397m 30s) (28000 14%) 0.4110
+66m 46s (- 393m 45s) (29000 14%) 0.3929
+68m 51s (- 390m 14s) (30000 15%) 0.3680
+70m 55s (- 386m 39s) (31000 15%) 0.3900
+73m 1s (- 383m 23s) (32000 16%) 0.4343
+75m 6s (- 380m 5s) (33000 16%) 0.3975
+77m 12s (- 376m 55s) (34000 17%) 0.4180
+79m 16s (- 373m 42s) (35000 17%) 0.3814
+81m 20s (- 370m 31s) (36000 18%) 0.3846
+83m 24s (- 367m 27s) (37000 18%) 0.3900
+85m 30s (- 364m 31s) (38000 19%) 0.3961
+87m 34s (- 361m 30s) (39000 19%) 0.3773
+89m 38s (- 358m 34s) (40000 20%) 0.3956
+		 eval accuracy: 0.697
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.265
+			 MEASURE eval error: 0.380
+			 DATE eval error: 0.252
+			 ELECTRONIC eval error: 0.700
+			 CARDINAL eval error: 0.220
+			 LETTERS eval error: 0.157
+			 DECIMAL eval error: 0.392
+			 FRACTION eval error: 0.385
+			 TELEPHONE eval error: 0.870
+			 TIME eval error: 0.042
+			 MONEY eval error: 0.550
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.615
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 4.0, 'MEASURE': 4.0, 'DATE': 3.0, 'ELECTRONIC': 5.0, 'CARDINAL': 4.0, 'LETTERS': 3.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 5.0, 'TIME': 3.0, 'MONEY': 5.0, 'DIGIT': 3.0, 'TRANS': 5.0, '<eos>': 0.0}
+('С е л о Т а х т а м ы г д а р а с п о л о ж е н о <PLAIN> <norm> к </norm> </PLAIN> с е в е р о - з а п а д у', '<self>', 'PLAIN', True)
+('о т 6 1 9 — <CARDINAL> <norm> 6 2 4 </norm> </CARDINAL> . P r o c e e d i n g s o f', 'шестьсот двадцать четыре', 'CARDINAL', True)
+20000
+98m 16s (- 381m 7s) (41000 20%) 0.3884
+100m 21s (- 377m 30s) (42000 21%) 0.4285
+102m 25s (- 373m 59s) (43000 21%) 0.3979
+104m 29s (- 370m 28s) (44000 22%) 0.4393
+106m 31s (- 366m 55s) (45000 22%) 0.3819
+108m 36s (- 363m 34s) (46000 23%) 0.4135
+110m 39s (- 360m 13s) (47000 23%) 0.3626
+112m 45s (- 357m 2s) (48000 24%) 0.4052
+114m 48s (- 353m 48s) (49000 24%) 0.3573
+116m 52s (- 350m 38s) (50000 25%) 0.3852
+118m 55s (- 347m 27s) (51000 25%) 0.4311
+120m 59s (- 344m 20s) (52000 26%) 0.3819
+123m 6s (- 341m 28s) (53000 26%) 0.3894
+125m 11s (- 338m 28s) (54000 27%) 0.4480
+127m 17s (- 335m 35s) (55000 27%) 0.3959
+129m 23s (- 332m 43s) (56000 28%) 0.4123
+131m 26s (- 329m 45s) (57000 28%) 0.4024
+133m 28s (- 326m 47s) (58000 28%) 0.3597
+135m 31s (- 323m 52s) (59000 29%) 0.3757
+137m 33s (- 320m 58s) (60000 30%) 0.3895
+		 eval accuracy: 0.698
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.262
+			 MEASURE eval error: 0.390
+			 DATE eval error: 0.243
+			 ELECTRONIC eval error: 0.708
+			 CARDINAL eval error: 0.220
+			 LETTERS eval error: 0.157
+			 DECIMAL eval error: 0.375
+			 FRACTION eval error: 0.375
+			 TELEPHONE eval error: 0.883
+			 TIME eval error: 0.040
+			 MONEY eval error: 0.535
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.617
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 5.0, 'MEASURE': 5.0, 'DATE': 3.0, 'ELECTRONIC': 6.0, 'CARDINAL': 5.0, 'LETTERS': 4.0, 'DECIMAL': 3.0, 'FRACTION': 3.0, 'TELEPHONE': 6.0, 'TIME': 3.0, 'MONEY': 6.0, 'DIGIT': 3.0, 'TRANS': 6.0, '<eos>': 0.0}
+('и з у ч а л м у з ы к а л ь н у ю и с т о р и ю <PLAIN> <norm> П о м е р а н и и </norm> </PLAIN> , р у к о в о д и л с т у д е н ч е с к и м', '<self>', 'PLAIN', True)
+('ч е м п и о н о м Ф Н Л с е з о н а <FRACTION> <norm> 2 0 1 1 / 2 0 1 2 </norm> </FRACTION> и п е р е й т и в', 'двух тысяч одиннадцати две тысячи двенадцатых', 'FRACTION', True)
+20000
+146m 6s (- 332m 56s) (61000 30%) 0.3638
+148m 10s (- 329m 48s) (62000 31%) 0.4174
+150m 14s (- 326m 42s) (63000 31%) 0.3827
+152m 19s (- 323m 41s) (64000 32%) 0.4088
+154m 25s (- 320m 43s) (65000 32%) 0.4112
+156m 28s (- 317m 42s) (66000 33%) 0.3895
+158m 32s (- 314m 43s) (67000 33%) 0.3721
+160m 38s (- 311m 49s) (68000 34%) 0.3893
+162m 43s (- 308m 57s) (69000 34%) 0.4048
+164m 48s (- 306m 5s) (70000 35%) 0.3863
+166m 51s (- 303m 10s) (71000 35%) 0.3807
+168m 56s (- 300m 20s) (72000 36%) 0.4026
+171m 0s (- 297m 29s) (73000 36%) 0.3835
+173m 4s (- 294m 42s) (74000 37%) 0.3773
+175m 8s (- 291m 54s) (75000 37%) 0.4111
+177m 11s (- 289m 5s) (76000 38%) 0.3799
+179m 15s (- 286m 21s) (77000 38%) 0.3641
+181m 21s (- 283m 39s) (78000 39%) 0.4136
+183m 25s (- 280m 55s) (79000 39%) 0.3800
+185m 28s (- 278m 13s) (80000 40%) 0.4198
+		 eval accuracy: 0.697
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.257
+			 MEASURE eval error: 0.382
+			 DATE eval error: 0.250
+			 ELECTRONIC eval error: 0.700
+			 CARDINAL eval error: 0.225
+			 LETTERS eval error: 0.157
+			 DECIMAL eval error: 0.382
+			 FRACTION eval error: 0.380
+			 TELEPHONE eval error: 0.885
+			 TIME eval error: 0.042
+			 MONEY eval error: 0.545
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.613
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 6.0, 'DATE': 4.0, 'ELECTRONIC': 7.0, 'CARDINAL': 6.0, 'LETTERS': 5.0, 'DECIMAL': 4.0, 'FRACTION': 4.0, 'TELEPHONE': 7.0, 'TIME': 3.0, 'MONEY': 7.0, 'DIGIT': 3.0, 'TRANS': 7.0, '<eos>': 0.0}
+('К а л л а у э й ( <PLAIN> <norm> а н г л </norm> </PLAIN> . C a l l a w a y )', '<self>', 'PLAIN', True)
+('1 9 9 0 , I S B N <TELEPHONE> <norm> 3 - 1 3 - 7 3 6 9 0 1 - 0 </norm> </TELEPHONE> . ( н е м', 'три sil тринадцать sil семьсот тридцать шесть девятьсот один sil ноль', 'TELEPHONE', True)
+20000
+194m 4s (- 285m 7s) (81000 40%) 0.3787
+196m 8s (- 282m 14s) (82000 41%) 0.3711
+198m 13s (- 279m 25s) (83000 41%) 0.3978
+200m 17s (- 276m 35s) (84000 42%) 0.3832
+202m 21s (- 273m 46s) (85000 42%) 0.3847
+204m 29s (- 271m 3s) (86000 43%) 0.4121
+206m 33s (- 268m 16s) (87000 43%) 0.3570
+208m 36s (- 265m 30s) (88000 44%) 0.3691
+210m 40s (- 262m 44s) (89000 44%) 0.4163
+212m 46s (- 260m 3s) (90000 45%) 0.4435
+214m 49s (- 257m 19s) (91000 45%) 0.4216
+216m 56s (- 254m 39s) (92000 46%) 0.3786
+219m 0s (- 251m 58s) (93000 46%) 0.4020
+221m 4s (- 249m 18s) (94000 47%) 0.3804
+223m 6s (- 246m 35s) (95000 47%) 0.4049
+225m 10s (- 243m 56s) (96000 48%) 0.3791
+227m 16s (- 241m 20s) (97000 48%) 0.3961
+229m 21s (- 238m 42s) (98000 49%) 0.3760
+231m 28s (- 236m 8s) (99000 49%) 0.3822
+233m 32s (- 233m 32s) (100000 50%) 0.3534
+		 eval accuracy: 0.697
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.255
+			 MEASURE eval error: 0.380
+			 DATE eval error: 0.245
+			 ELECTRONIC eval error: 0.703
+			 CARDINAL eval error: 0.225
+			 LETTERS eval error: 0.172
+			 DECIMAL eval error: 0.380
+			 FRACTION eval error: 0.382
+			 TELEPHONE eval error: 0.883
+			 TIME eval error: 0.045
+			 MONEY eval error: 0.530
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.627
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 6.0, 'MEASURE': 7.0, 'DATE': 5.0, 'ELECTRONIC': 8.0, 'CARDINAL': 7.0, 'LETTERS': 6.0, 'DECIMAL': 5.0, 'FRACTION': 5.0, 'TELEPHONE': 8.0, 'TIME': 3.0, 'MONEY': 8.0, 'DIGIT': 3.0, 'TRANS': 8.0, '<eos>': 0.0}
+('с т о р о н ы к р о в и н е <PLAIN> <norm> х а р а к т е р н ы </norm> </PLAIN> , у н е к о т о р ы х', '<self>', 'PLAIN', True)
+('д в а ж д ы в ы х о д и л в <FRACTION> <norm> 1 / 3 2 </norm> </FRACTION> ф и н а л а р е й т и н г о в ы х т у р н и р о в', 'одну тридцать вторую', 'FRACTION', True)
+20000
+242m 2s (- 237m 14s) (101000 50%) 0.3740
+244m 4s (- 234m 30s) (102000 51%) 0.3935
+246m 8s (- 231m 47s) (103000 51%) 0.3978
+248m 10s (- 229m 4s) (104000 52%) 0.3858
+250m 12s (- 226m 22s) (105000 52%) 0.3752
+252m 17s (- 223m 43s) (106000 53%) 0.4060
+254m 21s (- 221m 4s) (107000 53%) 0.3682
+256m 27s (- 218m 27s) (108000 54%) 0.4108
+258m 33s (- 215m 51s) (109000 54%) 0.3762
+260m 38s (- 213m 15s) (110000 55%) 0.3915
+262m 42s (- 210m 38s) (111000 55%) 0.3982
+264m 46s (- 208m 2s) (112000 56%) 0.3863
+266m 50s (- 205m 26s) (113000 56%) 0.3589
+268m 51s (- 202m 49s) (114000 56%) 0.3534
+270m 56s (- 200m 15s) (115000 57%) 0.3689
+272m 59s (- 197m 40s) (116000 57%) 0.3630
+275m 1s (- 195m 6s) (117000 58%) 0.3889
+277m 5s (- 192m 33s) (118000 59%) 0.3819
+279m 10s (- 190m 1s) (119000 59%) 0.3472
+281m 12s (- 187m 28s) (120000 60%) 0.3963
+		 eval accuracy: 0.698
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.262
+			 MEASURE eval error: 0.377
+			 DATE eval error: 0.235
+			 ELECTRONIC eval error: 0.703
+			 CARDINAL eval error: 0.218
+			 LETTERS eval error: 0.165
+			 DECIMAL eval error: 0.382
+			 FRACTION eval error: 0.375
+			 TELEPHONE eval error: 0.883
+			 TIME eval error: 0.042
+			 MONEY eval error: 0.540
+			 DIGIT eval error: 0.012
+			 TRANS eval error: 0.627
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 7.0, 'MEASURE': 8.0, 'DATE': 5.0, 'ELECTRONIC': 9.0, 'CARDINAL': 8.0, 'LETTERS': 7.0, 'DECIMAL': 6.0, 'FRACTION': 6.0, 'TELEPHONE': 9.0, 'TIME': 3.0, 'MONEY': 9.0, 'DIGIT': 3.0, 'TRANS': 9.0, '<eos>': 0.0}
+('п о р т р е т и м п е р а т о р а , <PLAIN> <norm> с о б р а л и </norm> </PLAIN> к р е с т ь я н - с в и д е т е л е й', '<self>', 'PLAIN', True)
+('» : 4 <PLAIN> <norm> ж е н щ и н ы </norm> </PLAIN> , и з н и х', '<self>', 'PLAIN', True)
+20000
+289m 46s (- 189m 11s) (121000 60%) 0.3602
+291m 48s (- 186m 34s) (122000 61%) 0.3774
+293m 54s (- 183m 59s) (123000 61%) 0.3740
+295m 59s (- 181m 24s) (124000 62%) 0.4044
+298m 4s (- 178m 50s) (125000 62%) 0.3834
+300m 6s (- 176m 15s) (126000 63%) 0.3764
+302m 11s (- 173m 42s) (127000 63%) 0.3831
+304m 13s (- 171m 7s) (128000 64%) 0.3524
+306m 18s (- 168m 35s) (129000 64%) 0.4295
+308m 22s (- 166m 2s) (130000 65%) 0.4113
+310m 27s (- 163m 31s) (131000 65%) 0.3510
+312m 33s (- 161m 0s) (132000 66%) 0.3860
+314m 34s (- 158m 28s) (133000 66%) 0.3669
+316m 40s (- 155m 58s) (134000 67%) 0.3977
+318m 44s (- 153m 28s) (135000 67%) 0.4432
+320m 51s (- 150m 59s) (136000 68%) 0.3978
+322m 56s (- 148m 30s) (137000 68%) 0.4299
+325m 2s (- 146m 1s) (138000 69%) 0.3867
+327m 4s (- 143m 32s) (139000 69%) 0.3698
+329m 10s (- 141m 4s) (140000 70%) 0.3476
+		 eval accuracy: 0.698
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.262
+			 MEASURE eval error: 0.385
+			 DATE eval error: 0.248
+			 ELECTRONIC eval error: 0.698
+			 CARDINAL eval error: 0.220
+			 LETTERS eval error: 0.170
+			 DECIMAL eval error: 0.387
+			 FRACTION eval error: 0.373
+			 TELEPHONE eval error: 0.875
+			 TIME eval error: 0.045
+			 MONEY eval error: 0.522
+			 DIGIT eval error: 0.017
+			 TRANS eval error: 0.627
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 8.0, 'MEASURE': 9.0, 'DATE': 6.0, 'ELECTRONIC': 10.0, 'CARDINAL': 9.0, 'LETTERS': 8.0, 'DECIMAL': 7.0, 'FRACTION': 6.0, 'TELEPHONE': 10.0, 'TIME': 3.0, 'MONEY': 10.0, 'DIGIT': 3.0, 'TRANS': 10.0, '<eos>': 0.0}
+('З в е з д а » , <PLAIN> <norm> д в у к р а т н ы й </norm> </PLAIN> ч е м п и о н С С С Р п о', '<self>', 'PLAIN', True)
+('3 2 0 с . — I S B N <TELEPHONE> <norm> 5 - 9 4 1 9 4 - 0 7 3 - 4 </norm> </TELEPHONE> Э н ц и к л о п е д и я д е к о р а т и в н ы х и', 'пять sil девятьсот сорок один девяносто четыре sil ноль семьдесят три sil четыре', 'TELEPHONE', True)
+20000
+337m 45s (- 141m 19s) (141000 70%) 0.3773
+339m 53s (- 138m 49s) (142000 71%) 0.3883
+341m 58s (- 136m 18s) (143000 71%) 0.3975
+344m 5s (- 133m 48s) (144000 72%) 0.4255
+346m 7s (- 131m 17s) (145000 72%) 0.3870
+348m 13s (- 128m 47s) (146000 73%) 0.3967
+350m 18s (- 126m 18s) (147000 73%) 0.3630
+352m 23s (- 123m 48s) (148000 74%) 0.4012
+354m 25s (- 121m 18s) (149000 74%) 0.3991
+356m 30s (- 118m 50s) (150000 75%) 0.4137
+358m 35s (- 116m 21s) (151000 75%) 0.4200
+360m 37s (- 113m 52s) (152000 76%) 0.3682
+362m 42s (- 111m 25s) (153000 76%) 0.3846
+364m 44s (- 108m 56s) (154000 77%) 0.3688
+366m 48s (- 106m 29s) (155000 77%) 0.4302
+368m 53s (- 104m 2s) (156000 78%) 0.3559
+370m 58s (- 101m 36s) (157000 78%) 0.3941
+373m 3s (- 99m 10s) (158000 79%) 0.3981
+375m 5s (- 96m 43s) (159000 79%) 0.3753
+377m 11s (- 94m 17s) (160000 80%) 0.3884
+		 eval accuracy: 0.701
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.265
+			 MEASURE eval error: 0.380
+			 DATE eval error: 0.235
+			 ELECTRONIC eval error: 0.693
+			 CARDINAL eval error: 0.223
+			 LETTERS eval error: 0.160
+			 DECIMAL eval error: 0.382
+			 FRACTION eval error: 0.370
+			 TELEPHONE eval error: 0.873
+			 TIME eval error: 0.042
+			 MONEY eval error: 0.522
+			 DIGIT eval error: 0.020
+			 TRANS eval error: 0.615
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 9.0, 'MEASURE': 10.0, 'DATE': 7.0, 'ELECTRONIC': 11.0, 'CARDINAL': 10.0, 'LETTERS': 9.0, 'DECIMAL': 8.0, 'FRACTION': 6.0, 'TELEPHONE': 11.0, 'TIME': 3.0, 'MONEY': 11.0, 'DIGIT': 3.0, 'TRANS': 11.0, '<eos>': 0.0}
+('i 1 6 , <PLAIN> <norm> и </norm> </PLAIN> G T - F o u r', '<self>', 'PLAIN', True)
+('<ELECTRONIC> <norm> C o m b i n e d F l e e t . c o m </norm> </ELECTRONIC> I J N H i r y u :', 'к_trans о_trans м_trans б_trans и_trans н_trans е_trans д_trans ф_trans л_trans и_trans т_trans точка к_trans о_trans м_trans', 'ELECTRONIC', True)
+20000
+385m 48s (- 93m 27s) (161000 80%) 0.3947
+387m 51s (- 90m 58s) (162000 81%) 0.4293
+389m 54s (- 88m 30s) (163000 81%) 0.3730
+391m 56s (- 86m 2s) (164000 82%) 0.3918
+393m 59s (- 83m 34s) (165000 82%) 0.3702
+396m 4s (- 81m 7s) (166000 83%) 0.3818
+398m 8s (- 78m 40s) (167000 83%) 0.3867
+400m 12s (- 76m 13s) (168000 84%) 0.3870
+402m 17s (- 73m 47s) (169000 84%) 0.4213
+404m 19s (- 71m 21s) (170000 85%) 0.4023
+406m 25s (- 68m 55s) (171000 85%) 0.4065
+408m 31s (- 66m 30s) (172000 86%) 0.3500
+410m 35s (- 64m 4s) (173000 86%) 0.4198
+412m 39s (- 61m 39s) (174000 87%) 0.4024
+414m 46s (- 59m 15s) (175000 87%) 0.4298
+416m 49s (- 56m 50s) (176000 88%) 0.3906
+418m 55s (- 54m 26s) (177000 88%) 0.4041
+420m 58s (- 52m 1s) (178000 89%) 0.4045
+423m 4s (- 49m 38s) (179000 89%) 0.3836
+425m 8s (- 47m 14s) (180000 90%) 0.3719
+		 eval accuracy: 0.701
+			 PLAIN eval error: 0.000
+			 PUNCT eval error: 0.000
+			 VERBATIM eval error: 0.010
+			 ORDINAL eval error: 0.262
+			 MEASURE eval error: 0.377
+			 DATE eval error: 0.228
+			 ELECTRONIC eval error: 0.693
+			 CARDINAL eval error: 0.218
+			 LETTERS eval error: 0.170
+			 DECIMAL eval error: 0.373
+			 FRACTION eval error: 0.370
+			 TELEPHONE eval error: 0.885
+			 TIME eval error: 0.035
+			 MONEY eval error: 0.518
+			 DIGIT eval error: 0.015
+			 TRANS eval error: 0.625
+{'PLAIN': 1, 'PUNCT': 2, 'VERBATIM': 3.0, 'ORDINAL': 10.0, 'MEASURE': 11.0, 'DATE': 7.0, 'ELECTRONIC': 12.0, 'CARDINAL': 11.0, 'LETTERS': 10.0, 'DECIMAL': 8.0, 'FRACTION': 7.0, 'TELEPHONE': 12.0, 'TIME': 3.0, 'MONEY': 12.0, 'DIGIT': 3.0, 'TRANS': 12.0, '<eos>': 0.0}
+Done.

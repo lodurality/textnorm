@@ -329,7 +329,7 @@ def trainIters_weighted(encoder, decoder, pairs, test_pairs,
     cur_iter = 1
     epoch_lag = 20
     for big_iter in range(1, int(np.ceil(n_iters/evaluate_each))):
-        even_sample = make_even_sample(pairs, size_of_class = 1000)
+        even_sample = make_even_sample(pairs, size_of_class = 200)
         weighted_sample = sample_pairs(pairs, size = evaluate_each - len(even_sample) + 1,
                                        weight_dict = weight_dict)
         weighted_sample += even_sample
@@ -537,7 +537,7 @@ print(train_pairs[:5])
 print(dev_pairs[:5])
 
 torch.backends.cudnn.enabled = False
-test_pairs = make_even_sample(dev_pairs, size_of_class = 500)
+test_pairs = make_even_sample(dev_pairs, size_of_class = 300)
 
 test_weight = dict((data_dev['class'].value_counts()/len(data_dev)))
 print(test_weight)
@@ -553,8 +553,8 @@ if use_cuda:
 
 callback_num = 1000
 
-plot_losses = trainIters_weighted(encoder1, attn_decoder1, train_pairs, test_pairs, 20000001, print_every=callback_num,
-                         plot_every=callback_num, evaluate_each=50000, learning_rate = 0.01)
+plot_losses = trainIters_weighted(encoder1, attn_decoder1, train_pairs, test_pairs, 2000001, print_every=callback_num,
+                         plot_every=callback_num, evaluate_each=10000, learning_rate = 0.01)
 
 torch.save(encoder1.state_dict() , 'models/encoder_{}.states'.format(model_name))
 torch.save(attn_decoder1.state_dict(), 'models/decoder_{}.states'.format(model_name))
